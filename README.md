@@ -4,11 +4,15 @@ Anyway, here it is!
 
 Disable your auto index junk in your web server, and ensure that your web browser (or the php-fpm process, if different) has access to read/write from the current directory, then send it.
 
+I made it go next level on security, and its supposed to have all the knowledge of the internet, so one would assume its as safe as can be. Seemed fine to me.
+
 Here's a quick install command. From the directory you want to share files from:
 
 ```
 curl -o index.php https://raw.githubusercontent.com/JoshFinlayAU/BetterIndex/main/betterindex.php
 ```
+
+I trialed Cursor, and a few others, and settled on Windsurf Cascade using Claude Sonnet 4. It was the only one with a decent UI/integration that didn't produce as much bullshit.
 
 Here is the README file that the thing spewed words at too:
 
@@ -146,13 +150,12 @@ $theme_config = [
 ## User Management
 
 ### Initial Setup
-On first run, BetterIndex will automatically create the user database. You'll need to create the first admin user:
+On first run, BetterIndex will automatically create the user database - IF you enabled authentication.
 
-```bash
-# Access the file manager in your browser
-# Click "Create Account" on the login page
-# First user created automatically becomes admin
-```
+The initial user will be setup as follows:
+
+Username: `admin`
+Password: `admin123` - change it!
 
 ### Managing Users (Admin Only)
 - **View users** - Access user management from the admin panel
