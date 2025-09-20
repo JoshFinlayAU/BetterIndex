@@ -1,4 +1,6 @@
-So I decided to try this AI code bullshit. After about 3 hours of fucking around, going backward and forward with more conversation than I have with humans every day, this is the result. I probably wrote about an 8th of the actual code. I do like how clean it is through, thats refreshing. I honestly don't know how anyone who doesn't know how to write code can produce anything really worth while with these tools because I had to read everything it generated, understand it and instruct it how to do things in a way that would work. Without that knowledge it would have produced a turd 💩 for sure.
+# Preface
+
+### So I decided to try this AI code bullshit. After about 3 hours of fucking around, going backward and forward with more conversation than I have with humans every day, this is the result. I probably wrote about an 8th of the actual code. I do like how clean it is through, thats refreshing. I honestly don't know how anyone who doesn't know how to write code can produce anything really worth while with these tools because I had to read everything it generated, understand it and instruct it how to do things in a way that would work. Without that knowledge it would have produced a turd 💩 for sure.
 
 Anyway, here it is!
 
