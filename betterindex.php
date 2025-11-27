@@ -18,13 +18,13 @@ $max_file_size = 100 * 1024 * 1024; // 100MB
 
 // UI Configuration
 $page_title = 'Index of ' . sanitizeOutput(calculateRelativePath() ?: '/'); // or, change this to be the page title you want to have
-$header_title = "BetterIndex";
+$header_title = "mirror.athenanetworks.com.au";
 $default_theme = 'light'; // 'light' or 'dark' or 'blue' or 'green' or 'purple'.. dark mode is always 'dark', but light mode is any other value including 'light'
 $default_view = 'grid'; // 'grid', 'list', or 'compact'
 $hide_dotfiles = true; // Hide files and folders starting with '.'
 
 // Security Configuration
-$auth_enabled = true; // Set to true to enable authentication
+$auth_enabled = false; // Set to true to enable authentication
 $auth_db_path = __DIR__ . '/.betterindex_users.db';
 $login_attempts_limit = 5; // Max failed login attempts before lockout
 $lockout_duration = 300; // Lockout duration in seconds (5 minutes)
@@ -3543,9 +3543,10 @@ if ($current_dir) {
 
         .stats {
             background: var(--bg-secondary);
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: var(--shadow);
+            border-radius: 8px;
+            padding: 16px 20px;
+            border: 1px solid var(--border-color);
+            margin-top: 24px;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 20px;
