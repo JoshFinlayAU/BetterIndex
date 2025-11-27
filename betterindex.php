@@ -18,7 +18,7 @@ $max_file_size = 100 * 1024 * 1024; // 100MB
 
 // UI Configuration
 $page_title = 'Index of ' . sanitizeOutput(calculateRelativePath() ?: '/'); // or, change this to be the page title you want to have
-$header_title = "BetterIndex"
+$header_title = "BetterIndex";
 $default_theme = 'light'; // 'light' or 'dark' or 'blue' or 'green' or 'purple'.. dark mode is always 'dark', but light mode is any other value including 'light'
 $default_view = 'grid'; // 'grid', 'list', or 'compact'
 $hide_dotfiles = true; // Hide files and folders starting with '.'
